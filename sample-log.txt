@@ -1,0 +1,5 @@
+INFO: All systems running
+ERROR: Disk not found
+WARNING: Low memory
+FAILED: Login attempt
+ERROR: Network down
