@@ -1,0 +1,2 @@
+Sat Jul 12 13:56:06 EAT 2025 ✅ File 'test.txt' exists.
+Sat Jul 12 13:56:25 EAT 2025 ❌ File 'notafile.txt' not found.
