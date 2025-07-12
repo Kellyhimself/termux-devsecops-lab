@@ -1,0 +1,5 @@
+ERROR: Disk almost full
+INFO: System running
+WARNING: High memory usage
+ERROR: Failed login attempt
+INFO: New user added

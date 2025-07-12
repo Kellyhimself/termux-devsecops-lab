@@ -1,0 +1,2 @@
+ERROR: Disk almost full
+ERROR: Failed login attempt
