@@ -1,0 +1,40 @@
+# Nmap 7.97 scan initiated Sun Jul 13 09:00:00 2025 as: /data/data/com.termux/files/usr/bin/nmap -p 22,80,443 --script vuln -oN /data/data/com.termux/files/home/termux-devsecops-lab/recon-scanme.nmap.org-2025-07-13_09-00-00.txt scanme.nmap.org
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.52s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+80/tcp  open   http
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_      http://ha.ckers.org/slowloris/
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=scanme.nmap.org
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://scanme.nmap.org:80/
+|     Form id: nst-head-search
+|     Form action: /search/
+|     
+|     Path: http://scanme.nmap.org:80/
+|     Form id: nst-foot-search
+|_    Form action: /search/
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|_  /images/: Potentially interesting directory w/ listing on 'apache/2.4.7 (ubuntu)'
+443/tcp closed https
+
+# Nmap done at Sun Jul 13 09:05:27 2025 -- 1 IP address (1 host up) scanned in 327.34 seconds

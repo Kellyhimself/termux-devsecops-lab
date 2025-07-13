@@ -1,0 +1,6 @@
+Day 12 - Sun Jul 13 12:16:40 EAT 2025: Ran multi-template nuclei scan on live-tesla.txt. Results saved in all-findings-tesla.txt. 0 findings detected.
+Day 13 - Sun Jul 13 12:35:58 EAT 2025: Gau scan completed. 0 URLs retrieved.  parameterized URLs extracted.
+Day 13 - Sun Jul 13 12:39:27 EAT 2025: Gau scan completed. 0 URLs retrieved. 0 parameterized URLs extracted.
+Day 14 - Sun Jul 13 13:02:34 EAT 2025: Fuzzed 0 URLs using qsreplace. Results stored in xss-test-results.txt.
+Day 14 - Sun Jul 13 13:08:39 EAT 2025: Fuzzed Tesla URLs with multiple XSS payloads. No direct reflections found, WAF suspected. Manual review recommended.
+Day 15 - Sun Jul 13 14:08:30 EAT 2025: Scanned PortSwigger labs. 0 URLs, 0 with params.
