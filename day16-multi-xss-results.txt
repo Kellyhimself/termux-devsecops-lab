@@ -1,0 +1,1 @@
+https://0acd00b404f7d9b3809a0d01003a0065.web-security-academy.net/?search=%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2Fgo%2Fbin%2Fqsreplace [[36mStored XSS into HTML context with nothing encoded[0m] []

@@ -1,0 +1,1 @@
+https://0ae9001504df54c780b280f4008c0024.web-security-academy.net/filter?category [[36mSQL injection vulnerability in WHERE clause allowing retrieval of hidden data[0m] []

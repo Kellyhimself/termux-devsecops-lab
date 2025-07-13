@@ -1,0 +1,3 @@
+' OR 1=1--
+' OR released = 1--
+' OR released = 0--
